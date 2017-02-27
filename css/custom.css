@@ -1,0 +1,370 @@
+.main{
+    width: 100%;
+   
+}
+
+.header{
+    border-top: 5px solid red;
+    height: 150px;
+}
+
+.logo{
+    height: 150px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.menuBar{
+height: 150px;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: flex-end;
+}
+
+.menuIcon{
+font-size: 20px;
+color: #313131;
+text-align: right;
+}
+
+.menu{
+float: right; 
+text-align: right;
+
+}
+
+.menu>ul>li{
+    font-size: 20px;
+    color: #3b3b3b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 15px;
+}
+
+.menu>ul>li:first-child{
+    color: gray;
+    border-top: 3px solid gray;
+}
+
+
+.menu>ul>li:hover{
+color: gray;
+border-top: 3px solid gray;
+transition: 1s;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.slider{
+    width: 100%;
+}
+
+.slider>img{
+     height: 486px;
+     /*opacity: 0.1;*/
+}
+
+.thirdPart{
+    margin-top: 70px;
+    width: 100%;
+}
+
+.thirdPart>div{
+    float: left;
+    padding-left: 5px;
+}
+
+.thirdPart>div>div>.fa{
+    font-size: 50px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid #313131;
+    color: #313131;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 70px;
+}
+
+.thirdPart>div>div>.fa:hover{
+    color: red;
+    border: 2px solid red;
+    transition: 1s;
+}
+
+.thirdPart>div>div{
+    text-align: center;
+}
+.thirdPart>div>h4{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    color: #313131;
+    font-weight: bold;
+}
+
+.thirdPart>div>p{
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 10px;
+    color: #313131;
+    left: 45px;
+    width: 90%;
+}
+
+.fourthPart{
+    width: 100%;
+    margin-top: 70px;
+  height: 180px;
+}
+
+.fourthPart>img{
+   
+}
+
+.fourthPart>.wrapper>div{
+    width: 100%;
+    
+height: 180px;
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+
+
+
+.fourthPart>.wrapper>div>div:first-child>p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #3b3b3b;
+   /*position: relative;
+    top: 40px;*/
+}
+
+.fourthPart>.wrapper>div>div:last-child>p{
+
+    text-align: center;
+    font-family: Calibri;
+    font-size: 40px;
+    color: #3b3b3b;
+  
+}
+
+.fifthPart{
+    margin-top: 70px;
+}
+
+.fifthPart>p{
+    font-size: 30px;
+    color: #313131;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.sixthPart{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sixthPart>div>h3{
+    font-size: 30px;
+    color: #313131;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sixthPart p{
+    font-size: 15px;
+    color: #313131;
+    font-family: Calibri;
+    line-height: 20px;
+}
+
+.sixthPart span{
+    font-family: 15px;
+    color: #3b3b3b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+}
+
+.sixthPart>div>.fa{
+    font-size: 12px;
+    color: #313131;
+}
+
+.seventh{
+    
+}
+
+.seventhP{
+    color: #313131;
+    font-size: 14px;
+    font-family: calibri;
+    line-height: 15px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+     align-items: center;
+}
+
+.text>h2{
+    color: #313131;
+    font-size: 20px;
+    width: 70%;
+ 
+}
+
+
+
+.time{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: gray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.text p{
+   margin-top: 10px;
+}
+
+.seventh{
+    margin-top: 70px;
+    height: auto;
+   height: 330px;
+}
+
+.seventh>p{
+    color: #313131;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+
+
+.seventh>div>p{
+    color: #3b3b3b;
+    font-size: 14px;
+    font-family: Calibri;
+    margin-top: 5px;
+}
+
+.seventh>div>h3{
+    color: #313131;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+img{
+    border-radius: 2px;
+}
+
+.footer{
+    margin-top: 50px;
+     border-top: 5px solid gray;
+     height: 100px;
+     background: black;
+ 
+}
+
+.footerLogo>img{
+    width: 277px;
+    height: 67px;
+}
+
+.footerLogo{
+    height: 100px;
+      display: flex;
+   align-items: center;
+}
+
+.footerIcons{
+    display: flex;
+    justify-content: flex-end;
+     align-items: center;
+     height: 100px;
+}
+
+.footerIcons li{
+    display: inline;
+    color: gray;
+}
+
+.footerIcons input{
+border-radius: 2px;
+border: 1px solid white;
+padding: 2px;
+width: 200px;
+}
+
+.eighthPart{
+    margin-top: 70px;
+
+}
+
+.eighthPart h3{
+    font-size: 25px;
+    font-family: Verdana;
+    color: #313131;
+    font-weight: bold;
+}
+
+.input>input{
+    width: 95%;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.input>textarea{
+    width: 93%;
+    
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.buttonFirst{
+    background: darkgray;
+    height: 30px;
+    width: 40%;
+    border-radius: 2px;
+    border: 1px solid darkgray;
+    color: white;
+   font-family: Calibri;
+   font-size: 16px;
+}
+
+.buttonSecond{
+    background: darkred;
+    height: 30px;
+    width: 54%;
+    border-radius: 2px;
+    border: 1px solid darkgray;
+    font-family: Calibri;
+    color: white;
+      font-size: 16px;
+}
+
+
+
+
+.tm{
+    color: #3b3b3b;
+    font-family: Calibri;
+    font-size: 19px;
+}
